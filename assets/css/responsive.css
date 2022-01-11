@@ -1,0 +1,661 @@
+@media screen and (max-width:768px) {
+
+    #navbar a.nav-link,
+    .find-doctors #navbar a.nav-link {
+        color: var(--darkblue);
+        margin-top: 21px;
+    }
+
+    .scroll-nav i.fas.fa-bars {
+        color: #fff !important;
+        border: 1px solid var(--white) !important;
+        padding: 10px 15px !important;
+        border-radius: 8px;
+    }
+
+    button.btn.hero-input-btn {
+        border-radius: 8px !important;
+        margin-top: 0px;
+    }
+
+    #question {
+        padding-bottom: 120px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    #navbar {
+        background: rgba(4, 35, 38, 0.897);
+    }
+
+    #navbar .nav-link {
+        color: var(--white) !important;
+    }
+
+    #navbar i.fas.fa-bars {
+        color: var(--white) !important;
+        border: 1px solid var(--white);
+        padding: 10px 15px !important;
+        border-radius: 8px;
+    }
+    
+    #hero-section {
+        height: auto;
+    }
+
+    #hero-section h1 {
+        font-size: 34px;
+    }
+
+     .input-location-div {
+        width: 100%;
+    }
+
+     .input-search-div {
+        width: 100%;
+    }
+
+     input,
+    #search-section input {
+        border-radius: 8px;
+    }
+
+    .offers .owl-theme .owl-nav {
+        position: unset;
+        margin-top: 10px;
+    }
+
+    #few-word .owl-theme .owl-nav {
+        display: none;
+    }
+
+    #why-choose {
+        padding: 60px 0;
+    }
+
+    h2.title {
+        margin-bottom: 22px !important;
+        font-size: 28px;
+    }
+
+    #why-choose .why-card h5 {
+        margin: 22.5px 0 12px;
+    }
+
+    #categories {
+        padding-top: 70px;
+    }
+
+    #categories .card {
+        border: none;
+    }
+
+    #categories img {
+        width: 100%;
+    }
+
+    .section-padding {
+        padding-bottom: 90px;
+    }
+
+    #education {
+        padding: 70px 0;
+    }
+
+    #education h4 {
+        margin: 14px 0 8px;
+        font-size: 18px;
+    }
+
+    #few-word {
+        padding: 70px 0;
+    }
+
+    #few-word h2 {
+        margin-bottom: 50px;
+    }
+
+    #query .query-content p {
+        font-size: 18px;
+    }
+
+    /* find doctors page */
+    .main-timeline:before {
+        content: none;
+    }
+
+    .main-timeline .icon {
+        display: none;
+    }
+
+    #search-section h1 {
+        font-size: 41px;
+        margin-bottom: 30px;
+    }
+
+    .input-lodation-div-find,
+    .input-select-div-find,
+    .input-search-div-find,
+    #search-section .input-location,
+    .input-select-div-find .select-input,
+    #search-section .input-search,
+    #search-section .select-input {
+        width: 100%;
+    }
+
+    #search-section .select-input {
+        border-radius: 8px;
+    }
+
+    h2.title {
+        font-size: 25px;
+    }
+
+    #work {
+        padding: 55px 0;
+    }
+
+    .main-timeline {
+        text-align: center;
+    }
+
+    .main-timeline .image-content {
+        width: 100%;
+        float: none;
+    }
+
+    .main-timeline .image-outer {
+        text-align: start;
+        margin: auto;
+    }
+
+    .main-timeline .timeline {
+        margin-bottom: 40px;
+    }
+
+    .main-timeline .timeline-content {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 0px 0px 20px 0;
+        text-align: center;
+    }
+
+    .main-timeline .timeline:nth-child(2n) .image {
+        left: 0;
+    }
+
+    .main-timeline .timeline .image {
+        left: 0;
+    }
+
+    .main-timeline .image {
+        position: relative;
+    }
+     #become-doctor h1, span.brush {
+        font-size: 36px !important;
+    }
+     #become-doctor h1 span {
+        font-size: 20px;
+    }
+    .doctor-consult {
+        padding: 50px 0 40px !important;
+    }
+    #why-choose .why-card h5, #work h5 {
+        margin: 20px 0 16px;
+        font-size: 18px;
+    }
+    #work .work-consult:not(:last-child) {
+        margin: 50px 0 60px;
+    }
+    #work ul p, #work ul li {
+        font-size: 16px;
+    }
+    #work ul li {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    /* ===================== diagnostics page =====================  */
+    .search-header {
+        text-align: center;
+    }
+    #packages .owl-theme .owl-nav, #checkups .owl-nav {
+        position: relative !important;
+        top: 10px;
+    }
+    .hero-description {
+        text-align: center;
+    }
+    .diagnostics-hero h1 {
+        font-size: 35px;
+    }
+    .diagnostics-hero h1 span {
+        font-size: 22px;
+    }
+    input.input-location, .input-group input, .input-group select {
+        border-radius: 8px !important;
+    }
+    #process, #checkups {
+        padding: 70px 0;
+    }
+    .process-content {
+        margin-top: 20px;
+    } 
+    .progress-card {
+        margin-top: 45px;
+    }
+    .process-img img {
+        max-width: 90px;
+        max-height: 90px;
+    }
+    .process-description {
+        margin-top: 18px;
+    }
+    .process h5 {
+        font-size: 18px;
+    }
+    .process-line {
+        display: none;
+    }
+    .package {
+        margin-top: 45px;
+    }
+    #packages .owl-dot {
+        display: none !important;
+    }
+    #question.section-padding {
+        padding-top: 70px;
+        padding-bottom: 120px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023.9px) {
+    #hero-section {
+        height: 650px !important;
+    }
+
+    #hero-section h1 {
+        font-size: 33px;
+    }
+    .hero-input-btn {
+        margin-top: 0px !important;
+    }
+    #why-choose {
+        padding: 70px 0 80px;
+    }
+
+    h2.title {
+        font-size: 30px;
+    }
+
+    #why-choose .why-card h5 {
+        font-size: 20px;
+        margin: 30.5px 0 12px;
+    }
+
+    #why-choose .why-card p {
+        font-size: 14px;
+    }
+
+     input.input-location {
+        width: 336px;
+    }
+
+     .input-search-div {
+        margin: 10px 0;
+    }
+
+    .offers h2 {
+        margin-bottom: 41px;
+    }
+
+    #categories {
+        padding-top: 80px;
+    }
+
+    .section-padding {
+        padding-bottom: 80px;
+    }
+
+    #education {
+        padding: 70px 0;
+    }
+
+    #education h2 {
+        margin-bottom: 35px;
+    }
+
+    #education img:not(.play-img) {
+        padding: 14px 10px;
+    }
+
+    img.play-img {
+        width: 30px;
+    }
+
+    #education h4 {
+        font-size: 16px;
+        margin: 12px 0 0;
+    }
+
+    #education span {
+        font-size: 14px;
+    }
+
+    #query .query-content p {
+        font-size: 19px;
+    }
+
+    #few-word {
+        padding: 80px 0 100px;
+    }
+
+    #few-word .owl-theme .owl-nav {
+        display: none;
+    }
+
+    #few-word .card p {
+        font-size: 16px;
+    }
+
+    footer img {
+        max-width: 150px;
+    }
+
+    footer .footer-social a:not(:first-child) {
+        margin-left: 12px;
+    }
+
+    .doctor-consult {
+        padding: 60px 0 70px !important;
+    }
+
+    #work .work-consult:not(:last-child) {
+        margin: 60px 0 50px;
+    }
+
+    /* ===================== find doctors page ===================== */
+
+    #search-section .input-search {
+        width: 312px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .input-group input:not(.input-search) {
+        border-top-left-radius: 8px !important;
+        border-bottom-left-radius: 8px !important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #find-input {
+        border-top-right-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+
+   .hero-input-btn {
+        margin-top: 4px !important;
+    }
+
+    #work {
+        padding: 60px 0;
+    }
+
+    .main-timeline .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .main-timeline .image-content {
+        margin-top: 0px !important;
+    }
+
+    .timeline p.description {
+        font-size: 14px;
+    }
+
+    .main-timeline .timeline-content {
+        padding: 0px 0 10px 70px;
+    }
+
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 0px 70px 20px 0;
+    }
+
+    .main-timeline .timeline:nth-child(2n) .image {
+        left: unset !important;
+    }
+
+    .main-timeline .timeline:not(:nth-child(2n)) .image-outer {
+        position: relative;
+    }
+
+    .main-timeline .timeline:not(:nth-child(2n)) .image {
+        right: 0;
+    }
+
+    /* ===================== diagnostics page ===================== */    
+     i.fas.fa-bars {
+        color: #fff !important;
+        border: 1px solid var(--white) !important;
+    }
+    header#header {
+        background: rgba(4, 35, 38, 0.897);
+    }
+    .diagnostics-hero h1 {
+        font-size: 36px;
+    }
+    #diagnostics-hero .hero-description-header .brush {
+        right: 3px;
+        max-width: 107px;
+    }
+    #diagnostics-hero h1 span {
+        font-size: 22px;
+    }
+    input:not(.modal input) {
+        height: 55px;
+    }
+    /* .input-group input, .input-group select {
+        border-radius: 8px;
+    } */
+    .process-content .process-line {
+        left: 35px;
+        max-width: 88%;
+    }
+    .process h5 {
+        font-size: 16px;
+    }
+    #process {
+        padding: 70px 0 80px;
+    }
+    #checkups {
+        padding: 70px 0 90px;
+        text-align: center;
+    }
+    #question.section-padding {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    .input-group, .input-group {    
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366.9px) {
+    #navbar ul li {
+        margin-right: 35px;
+    }
+
+    #navbar .login-btn a {
+        padding: 14px 29px;
+    }
+
+    #hero-section {
+        height: 650px !important;
+    }
+    
+    input#hero-input {
+        border-bottom-right-radius: 8px !important;
+        border-top-right-radius: 8px !important;
+    }
+    button.btn.hero-input-btn {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    #why-choose {
+        padding: 80px 0 90px;
+    }
+
+    #why-choose .why-card h5 {
+        margin: 30.5px 0 12px;
+    }
+
+    #why-choose .why-card .why-img {
+        width: 97px;
+        height: 97px;
+    }
+
+    #why-choose img.img-fluid {
+        max-width: 40px;
+    }
+
+    .offers h2,
+    #categories h2,
+    #education h2 {
+        margin-bottom: 50px;
+    }
+
+    #categories {
+        padding-top: 80px;
+    }
+
+    .section-padding {
+        padding-bottom: 90px;
+    }
+
+    #categories h5 {
+        font-size: 16px;
+    }
+
+    #categories p {
+        font-size: 13px;
+    }
+
+    #education {
+        padding: 80px 0 90px;
+    }
+
+    #education img:not(.play-img) {
+        padding: 16px 14px;
+    }
+
+    #education h4 {
+        font-size: 18px;
+        margin: 16px 0 8px;
+    }
+
+    #education span {
+        font-size: 14px;
+    }
+
+    #query .query-content p {
+        font-size: 20px;
+    }
+
+    #few-word {
+        padding: 90px 0 100px;
+    }
+
+    .doctor-consult {
+        padding: 80px 0 !important;
+    }
+
+    /* =========================== find doctors page =========================== */
+    #work {
+        padding: 60px 0 70px;
+    }
+
+    h2.title {
+        font-size: 28px;
+    }
+
+    #work h2.title {
+        margin-bottom: 40px;
+    }
+    button.btn.hero-input-btn {
+        margin-top: 0px !important;
+    }
+    .timeline p.description {
+        max-width: 291px;
+        font-size: 14px;
+    }
+
+    .main-timeline .icon {
+        width: 60px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .main-timeline img {
+        max-width: 124px;
+    }
+
+    .main-timeline .title {
+        font-size: 18px;
+    }
+
+    .main-timeline .timeline:nth-child(2n) .image {
+        left: 0;
+    }
+
+    #question h2.title {
+        margin-bottom: 50px;
+    }
+
+    #question {
+        padding-bottom: 120px;
+    }
+    .process h5 {
+        font-size: 18px;    
+    }
+    /* =========================== diagnostics page =========================== */
+    #diagnostics-hero .input-group .btn {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    #diagnostics-hero .input-search {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    #process, #checkups {
+        padding: 70px 0 90px;
+    }
+    #question.section-padding {
+        padding: 80px 0 90px;
+    }
+    /* .owl-carousel .owl-dots {
+        display: none !important;
+    } */
+
+    #work .work-consult:not(:last-child) {
+        margin: 80px 0 80px;
+    }
+    .doctor-description {
+        padding: 97px 0 42px;
+    }
+
+}
+@media screen and (max-width: 991.9px) {
+    #become-doctor::after, #become-doctor::before {
+        content: none;
+    }    
+    button.nav-link.btn.btn-outline-primary {
+        margin-top: 15px;
+    }
+} 
