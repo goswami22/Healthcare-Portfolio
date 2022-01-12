@@ -473,11 +473,11 @@ button.owl-next {
 }
 
 .offer-card-1 {
-    background-image: url(/assets/img/offer1.png);
+    background-image: url(../img/offer1.png);
 }
 
 .offer-card-2 {
-    background-image: url(/assets/img/offer2.png);
+    background-image: url(../img/offer2.png);
 }
 
 .offer-card h6:not(.offer-card-2 h6) {
@@ -601,7 +601,7 @@ img.play-img {
 
 /* query */
 #query {
-    background: url(/assets/img/query.png);
+    background: url(../img/query.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -790,7 +790,7 @@ footer .footer-social a:not(:first-child) {
 }
 
 #search-section {
-    background: url(/assets/img/find-page.jpg) no-repeat;
+    background: url(../img/find-page.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -1056,7 +1056,7 @@ input.input-location {
 }
 
 #question .accordion-button:not(.collapsed)::after {
-    background-image: url("/assets/img/acc-m.png");
+    background-image: url("../img/acc-m.png");
 }
 
 #question .accordion-button::after {
@@ -1090,7 +1090,7 @@ span.brush {
 }
 
 span.brush {
-    background: url(/assets/img/brush.png) no-repeat;
+    background: url(../img/brush.png) no-repeat;
     background-position: bottom 8px right;
     background-size: contain;
 }
@@ -1328,7 +1328,7 @@ span.brush {
 
 #become-doctor::after {
     content: "";
-    background: url(/assets/img/become-doctor.png) no-repeat;
+    background: url(../img/become-doctor.png) no-repeat;
     background-size: contain;
     background-position: right bottom;
     position: absolute;
@@ -1341,7 +1341,7 @@ span.brush {
 
 #become-doctor::before {
     content: "";
-    background: url(/assets/img/hero\ back.png) no-repeat;
+    background: url(../img/hero\ back.png) no-repeat;
     background-size: contain;
     background-position: left bottom;
     position: absolute;
@@ -1353,7 +1353,7 @@ span.brush {
 }
 
 #become-doctor span.brush {
-    background: url(/assets/img/brush.png) no-repeat;
+    background: url(../img/brush.png) no-repeat;
     background-position: bottom -2px right;
     background-size: contain;
 }
