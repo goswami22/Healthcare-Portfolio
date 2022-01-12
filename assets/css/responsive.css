@@ -459,13 +459,7 @@
     input:not(.modal input) {
         height: 55px;
     }
-    /* .input-group input, .input-group select {
-        border-radius: 8px;
-    } */
-    .process-content .process-line {
-        left: 35px;
-        max-width: 88%;
-    }
+   
     .process h5 {
         font-size: 16px;
     }
