@@ -1146,16 +1146,6 @@ span.brush {
     overflow: hidden;
 }
 
-.process-content .process-line {
-    position: absolute;
-    left: 125px;
-    top: 18%;
-    transform: translatey(-18%);
-    z-index: 0;
-    opacity: 0.7;
-    width: 100%;
-}
-
 .process-img {
     position: relative;
     z-index: 1;
